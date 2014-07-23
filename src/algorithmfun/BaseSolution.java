@@ -3,7 +3,7 @@ package algorithmfun;
 import java.util.ArrayList;
 
 public class BaseSolution {
-	protected void printArray(Object[] array)
+	public void printArray(Object[] array)
 	{
 		if (array == null )
 			System.out.println("empty array");
@@ -12,7 +12,7 @@ public class BaseSolution {
 		System.out.println();
 	}
 	
-	protected void printArrayList(ArrayList<Object> list)
+	public void printArrayList(ArrayList<Object> list)
 	{
 		if (list == null)
 			System.out.println("empty array list");
